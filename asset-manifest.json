@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/real-estate-price-prediction-brainjs/static/css/main.5688f851.css",
+    "main.js": "/real-estate-price-prediction-brainjs/static/js/main.4bce9738.js",
+    "static/js/453.b3fd618f.chunk.js": "/real-estate-price-prediction-brainjs/static/js/453.b3fd618f.chunk.js",
+    "index.html": "/real-estate-price-prediction-brainjs/index.html",
+    "main.5688f851.css.map": "/real-estate-price-prediction-brainjs/static/css/main.5688f851.css.map",
+    "main.4bce9738.js.map": "/real-estate-price-prediction-brainjs/static/js/main.4bce9738.js.map",
+    "453.b3fd618f.chunk.js.map": "/real-estate-price-prediction-brainjs/static/js/453.b3fd618f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5688f851.css",
+    "static/js/main.4bce9738.js"
+  ]
+}
