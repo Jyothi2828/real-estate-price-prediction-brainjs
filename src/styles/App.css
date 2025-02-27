@@ -1,0 +1,52 @@
+/* App.css or a separate CSS file for errors */
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#heading {
+    text-align: center;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    background-color: #F6F5F5;
+}
+
+.unsupported-device-message {
+    display: none;
+}
+
+@media (max-width: 1024px), (max-height: 380px) {
+    body {
+        display: none;
+    }
+
+    .unsupported-device-message {
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #333;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1025px), (min-height: 381px) {
+    .unsupported-device-message {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .error {
+        font-size: 10px;
+    }
+}
